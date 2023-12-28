@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.movieDetail-Card{
+    display: flex;
+    padding: 20px 60px;
+    background-color: #0e1620;
+    gap: 100px;
+    margin-bottom: 40px;
+    /* height: 100vh; */
+}
+.left-movieDetail:hover{
+    scale: 0.9;
+  transition: all;
+  transition-duration:.2s;
+  transition-timing-function: ease-in-out;
+}
+.movieDetail-image{
+    height: 550px;
+    width: 450px;
+    border-radius: 10px;
+    margin-top: 30px;
+    box-shadow: 5px 5px 5px 5px rgb(10, 6, 6);
+}
+.right-movieDetail{
+    color: white;
+    list-style: disc;
+    font-size: 25px;
+}

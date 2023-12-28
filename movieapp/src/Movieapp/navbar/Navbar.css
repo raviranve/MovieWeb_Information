@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+  }
+  .nav-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    background-color: #1c1c1c;
+  }
+  .nav-h2{
+    color: white;
+    font-size: 25px;
+  }
+  .nav-input{
+    height: 30px;
+    width: 300px;
+    padding: 2px 8px;
+    background-color: black;
+    color: white;
+    font-size: large;
+    border: none;
+    border-radius: 10px;
+  }
+  .nav-btn{
+    height: 30px;
+    border: none;
+    padding: 1px 5px;
+    font-size: 18px;
+    border-bottom-left-radius: none;
+    border-top-left-radius: none;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    background-color: orange;
+  
+  }
+  .nav-search {
+    display: flex;
+    /* justify-content: space-evenly; */
+    width: 350px;
+    height: 30px;
+  }
+  .search-input {
+    width: 100%;
+    font-size: 1rem;
+    border: none;
+    padding: 1px 10px;
+    border-bottom-right-radius: none;
+    border-top-right-radius: none;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+  }
+  .nav-search:hover {
+    border: 2px solid orange;
+    border-radius: 6px;
+}
+.nav-user{
+  display: flex;
+  align-items: center;
+}
+.navmen-image{
+  height: 50px;
+  width: 50px;
+}
+.userName{
+  color: white;
+  padding: 5px 30px;
+}
+.logout-btn{
+  height: 35px;
+  width: 80px;
+  font-size: 20px;
+  background-color: orange;
+  border: none;
+  border-radius: 5px;
+}
+.nav-menuIcon{
+  display: none;
+  position: absolute;
+    top: 30px;
+    right: 30px;
+    width: 40px;
+    cursor: pointer;
+    font-size: 20px;
+}
+.movieNav-container{
+    display: flex;
+    padding: 20px 60px;
+    background-color: #171f29;
+    gap: 100px;
+}
+.movieNav-card-left:hover{
+    scale: 0.9;
+  transition: all;
+  transition-duration:.2s;
+  transition-timing-function: ease-in-out;
+}
+.movieNav-image{
+    height: 550px;
+    width: 450px;
+    border-radius: 10px;
+    margin-top: 30px;
+    box-shadow: 5px 5px 5px 5px rgb(10, 6, 6);
+}
+.movieNav-card-right{
+    color: white;
+    list-style: disc;
+    font-size: 25px;
+}
